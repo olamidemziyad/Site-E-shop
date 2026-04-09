@@ -1,0 +1,25 @@
+{
+  "name": "site-e-shop",
+  "version": "1.0.0",
+  "description": "Projet de fin d'etude a Localhost Academy 24",
+  "homepage": "https://github.com/olamidemziyad/Site-E-shop#readme",
+  "bugs": {
+    "url": "https://github.com/olamidemziyad/Site-E-shop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olamidemziyad/Site-E-shop.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm --prefix client run dev\" \"npm --prefix Server start\"",
+    "install-all": "npm install && npm --prefix client install && npm --prefix Server install"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
